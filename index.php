@@ -11,7 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-            echo"Web Sever is Running Locally"
+        //accessing the create-db file from the controller file 
+           require_once (__DIR__ . '/controller/crerate-db.php');
         ?>
     </body>
 </html>
